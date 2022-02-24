@@ -1,6 +1,6 @@
     app:
-        name: MySQL
-        code: mysql
+        name: MySQLa
+        code: mysqla
         notify: svengathattil@ecloudcontrol.com
 
     build:
