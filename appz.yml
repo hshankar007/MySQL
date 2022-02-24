@@ -13,7 +13,7 @@
     deploy:
         context: sidharth-v/DEV
         type: statefulset
-        replicas: 3
+        replicas: 1
         ingress: none
         port:
         - 3306
