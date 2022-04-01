@@ -7,6 +7,9 @@
         version: 5.7
         env: DEV
         build_file: none
+        args:
+          - "--ignore-db-dir"
+          - "lost+found"
         output_files: output/*.zip
         image_template: mysql-5.7
 
